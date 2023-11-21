@@ -1,0 +1,56 @@
+REACT --js library(front end development technique)
+----------------------------------------------
+basic commands
+    to create project:npx create-react-app projectname
+    to run project:npm start
+
+basic concepts
+    -reusable component based approach
+    -jsx:javascript xml
+    -fast
+
+    front end difference
+    concept          angular                     react                        vue 
+    ------------------------------------------------------------------------------------
+    1.developer     framework--google           library--meta/facebook       framework--opensource
+    2.language      typescript                  javascript                   javascript
+    3.dom           real dom                    virtual dom                  virtual dom
+    4.data sharing  two data binding            one way data binding         two way data binding
+    
+react is component based application
+    components-create a js file with having first letter capital
+    two types of components-
+    1.class based components
+    2.functional based components
+
+state:state is used to store values in react
+we can share the state directly to child components(also advantage of state to transfer the value)
+    based on components state are classified into two-
+    1.class based components is known as stateful components,to create state functions already available in the class based component by default
+    2.functional based components is known as stateless components,by default to create the state functions are not available in functional based components
+
+react hook--it is some predefined functions.it can be create and use the entire project
+after react 16 version hook introduced to provide functional based components to create the state functions as avaiable by default.
+hook name start with use keyword
+use predefined-function()
+use State()--hook used to create state in functional based components
+
+state creation syntax-
+                const[statename,statevalueupdationfunction]=useState()
+                to initalize the values in intially we want to write inside the functions call of hook with single quote,eg:usestate('10')
+                const is variable
+
+props: is used to share between parent and child
+
+to destructure we want to put key in curl braces
+
+conditional rendering:considering condition only rendering the data
+
+only one condition we will use truthy operator
+
+to build a project
+npm install @mui/material @emotion/react @emotion/styled
+
+to instal react bootstrap--npm install react-bootstrap bootstrap
+
+free themes for bootstrap--bootswatch
